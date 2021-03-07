@@ -1,0 +1,166 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head><title>R: Thermal Image Analysis</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" type="text/css" href="R.css" />
+</head><body>
+<h1> Thermal Image Analysis
+<img class="toplogo" src="../../../doc/html/Rlogo.svg" alt="[R logo]" />
+</h1>
+<hr/>
+<div style="text-align: center;">
+<a href="../../../doc/html/packages.html"><img class="arrow" src="../../../doc/html/left.jpg" alt="[Up]" /></a>
+<a href="../../../doc/html/index.html"><img class="arrow" src="../../../doc/html/up.jpg" alt="[Top]" /></a>
+</div><h2>Documentation for package &lsquo;Thermimage&rsquo; version 4.0.1</h2>
+
+<ul><li><a href="../DESCRIPTION">DESCRIPTION file</a>.</li>
+</ul>
+
+<h2>Help Pages</h2>
+
+
+<table width="100%">
+<tr><td style="width: 25%;"><a href="Thermimage-package.html">Thermimage-package</a></td>
+<td>Handles thermal image data input and conversion to temperature using established physical equations.</td></tr>
+<tr><td style="width: 25%;"><a href="airdensity.html">airdensity</a></td>
+<td>Returns the density of air for a given air temperature.</td></tr>
+<tr><td style="width: 25%;"><a href="airspecificheat.html">airspecificheat</a></td>
+<td>Specific heat capacity of air</td></tr>
+<tr><td style="width: 25%;"><a href="airtconductivity.html">airtconductivity</a></td>
+<td>Thermal conductivity of air.</td></tr>
+<tr><td style="width: 25%;"><a href="airviscosity.html">airviscosity</a></td>
+<td>Returns air viscosity for a given air temperature.</td></tr>
+<tr><td style="width: 25%;"><a href="areacone.html">areacone</a></td>
+<td>Provides the surface are of a cone</td></tr>
+<tr><td style="width: 25%;"><a href="areacylinder.html">areacylinder</a></td>
+<td>Provides the surface area of a cylinder.</td></tr>
+<tr><td style="width: 25%;"><a href="areasphere.html">areasphere</a></td>
+<td>Provides the surface area of a sphere.</td></tr>
+<tr><td style="width: 25%;"><a href="convertflirJPG.html">convertflirJPG</a></td>
+<td>Convert FLIR jpg into 16 bit grayscale file using shell commands.</td></tr>
+<tr><td style="width: 25%;"><a href="convertflirVID.html">convertflirVID</a></td>
+<td>Convert FLIR CSQ or SEQ into PNG or AVI, using shell commands.</td></tr>
+<tr><td style="width: 25%;"><a href="cumulDiff.html">cumulDiff</a></td>
+<td>Cumulative difference sum function for use with frame by frame difference dataframe</td></tr>
+<tr><td style="width: 25%;"><a href="diffFrame.html">diffFrame</a></td>
+<td>A frame difference function for subtracting adjacent frames from an imported thermal image sequence.</td></tr>
+<tr><td style="width: 25%;"><a href="ffmpegcall.html">ffmpegcall</a></td>
+<td>A simplified wrapper function calling ffmpeg</td></tr>
+<tr><td style="width: 25%;"><a href="flip.matrix.html">flip.matrix</a></td>
+<td>Flips a matrix 'left-right'.  Used in re-arranging image data for plotting properly in R.</td></tr>
+<tr><td style="width: 25%;"><a href="flirpal.html">flirpal</a></td>
+<td>Colour palette extracted from FLIR thermal camera files</td></tr>
+<tr><td style="width: 25%;"><a href="flirsettings.html">flirsettings</a></td>
+<td>Extracts meta tag information from a FLIR JPG image</td></tr>
+<tr><td style="width: 25%;"><a href="forcedparameters.html">forcedparameters</a></td>
+<td>Parameters required for forced convection equation.</td></tr>
+<tr><td style="width: 25%;"><a href="frameLocates.html">frameLocates</a></td>
+<td>Find the frame read start positions in a FLIR SEQ video file.</td></tr>
+<tr><td style="width: 25%;"><a href="freeparameters.html">freeparameters</a></td>
+<td>Parameters required for free convection equation.</td></tr>
+<tr><td style="width: 25%;"><a href="getFrames.html">getFrames</a></td>
+<td>Extract raw binary thermal from thermal image file.</td></tr>
+<tr><td style="width: 25%;"><a href="getTimes.html">getTimes</a></td>
+<td>Extracts time values from binary imported thermal video file</td></tr>
+<tr><td style="width: 25%;"><a href="glowbowpal.html">glowbowpal</a></td>
+<td>Colour palette extracted from FLIR thermal camera files</td></tr>
+<tr><td style="width: 25%;"><a href="Grashof.html">Grashof</a></td>
+<td>Determines the Grashof number for an object</td></tr>
+<tr><td style="width: 25%;"><a href="grey10pal.html">grey10pal</a></td>
+<td>Colour palette extracted from FLIR thermal camera files</td></tr>
+<tr><td style="width: 25%;"><a href="grey120pal.html">grey120pal</a></td>
+<td>Colour palette extracted from FLIR thermal camera files</td></tr>
+<tr><td style="width: 25%;"><a href="greyredpal.html">greyredpal</a></td>
+<td>Colour palette extracted from FLIR thermal camera files</td></tr>
+<tr><td style="width: 25%;"><a href="hconv.html">hconv</a></td>
+<td>Convective heat coefficient (W/m2/oC)</td></tr>
+<tr><td style="width: 25%;"><a href="hotironpal.html">hotironpal</a></td>
+<td>Colour palette extracted from FLIR thermal camera files</td></tr>
+<tr><td style="width: 25%;"><a href="ironbowpal.html">ironbowpal</a></td>
+<td>Colour palette extracted from FLIR thermal camera files</td></tr>
+<tr><td style="width: 25%;"><a href="Ld.html">Ld</a></td>
+<td>Estimates downward facing longwave radiation (W/m2)</td></tr>
+<tr><td style="width: 25%;"><a href="locate.fid.html">locate.fid</a></td>
+<td>Returns the index locations that match vector fid within data vector.</td></tr>
+<tr><td style="width: 25%;"><a href="Lu.html">Lu</a></td>
+<td>Estimates upward facing ground radiation (W/m2)</td></tr>
+<tr><td style="width: 25%;"><a href="Lw.html">Lw</a></td>
+<td>Estimates downward facing longwave radiation (W/m2)</td></tr>
+<tr><td style="width: 25%;"><a href="meanEveryN.html">meanEveryN</a></td>
+<td>Calculate the mean every nth data point.</td></tr>
+<tr><td style="width: 25%;"><a href="medicalpal.html">medicalpal</a></td>
+<td>Colour palette extracted from FLIR thermal camera files</td></tr>
+<tr><td style="width: 25%;"><a href="midgreenpal.html">midgreenpal</a></td>
+<td>Colour palette extracted from FLIR thermal camera files</td></tr>
+<tr><td style="width: 25%;"><a href="midgreypal.html">midgreypal</a></td>
+<td>Colour palette extracted from FLIR thermal camera files</td></tr>
+<tr><td style="width: 25%;"><a href="mikronprismpal.html">mikronprismpal</a></td>
+<td>Colour palette extracted from Mikron thermal camera files</td></tr>
+<tr><td style="width: 25%;"><a href="mikroscanpal.html">mikroscanpal</a></td>
+<td>Colour palette extracted from FLIR thermal camera files</td></tr>
+<tr><td style="width: 25%;"><a href="mirror.matrix.html">mirror.matrix</a></td>
+<td>Mirrors a matrix upside-down.  Used in re-arranging image data for plotting properly in R.</td></tr>
+<tr><td style="width: 25%;"><a href="nameleadzero.html">nameleadzero</a></td>
+<td>Add leading zeros to character for easy sequential naming of filenames.</td></tr>
+<tr><td style="width: 25%;"><a href="Nusseltforced.html">Nusseltforced</a></td>
+<td>Nusselt number for forced convection.</td></tr>
+<tr><td style="width: 25%;"><a href="Nusseltfree.html">Nusseltfree</a></td>
+<td>Nusselt number for free convection.</td></tr>
+<tr><td style="width: 25%;"><a href="palette.choose.html">palette.choose</a></td>
+<td>Choose a colour palette for gradient filling thermal image files.</td></tr>
+<tr><td style="width: 25%;"><a href="plotTherm.html">plotTherm</a></td>
+<td>Plot thermal image data for visualisation purposes.</td></tr>
+<tr><td style="width: 25%;"><a href="Prandtl.html">Prandtl</a></td>
+<td>Returns the Prandtl number</td></tr>
+<tr><td style="width: 25%;"><a href="qabs.html">qabs</a></td>
+<td>Estimates the absorbed solar and infrared radiation (W/m2)</td></tr>
+<tr><td style="width: 25%;"><a href="qcond.html">qcond</a></td>
+<td>Estimates the area specific heat transfer by conduction (W/m2)</td></tr>
+<tr><td style="width: 25%;"><a href="qconv.html">qconv</a></td>
+<td>Estimates the area specific heat transfer by convection (W/m2)</td></tr>
+<tr><td style="width: 25%;"><a href="qrad.html">qrad</a></td>
+<td>Estimates the area specific heat transfer by radiation (W/m2)</td></tr>
+<tr><td style="width: 25%;"><a href="rainbow1234pal.html">rainbow1234pal</a></td>
+<td>Colour palette extracted from FLIR thermal camera files</td></tr>
+<tr><td style="width: 25%;"><a href="rainbowpal.html">rainbowpal</a></td>
+<td>Colour palette extracted from FLIR thermal camera files</td></tr>
+<tr><td style="width: 25%;"><a href="raw2temp.html">raw2temp</a></td>
+<td>Converts raw thermal data into temperature (oC)</td></tr>
+<tr><td style="width: 25%;"><a href="readflirJPG.html">readflirJPG</a></td>
+<td>Reads an image from a FLIR JPG file into an integer array.</td></tr>
+<tr><td style="width: 25%;"><a href="Reynolds.html">Reynolds</a></td>
+<td>Calculates the Reynolds number.</td></tr>
+<tr><td style="width: 25%;"><a href="rotate180.matrix.html">rotate180.matrix</a></td>
+<td>Rotate a matrix by 180 degrees.  Used for adjusting image plotting in R.</td></tr>
+<tr><td style="width: 25%;"><a href="rotate270.matrix.html">rotate270.matrix</a></td>
+<td>Rotate a matrix by 270 degrees counterclockwise (or 90 degree clockwise).  Used for adjusting image plotting in R.</td></tr>
+<tr><td style="width: 25%;"><a href="rotate90.matrix.html">rotate90.matrix</a></td>
+<td>Rotate a matrix by 90 degrees counterclockwise (270 degrees clockwise). Used for adjusting image plotting in R.</td></tr>
+<tr><td style="width: 25%;"><a href="samp.image.html">samp.image</a></td>
+<td>A sample thermal image to demonstrate thermal colour palette use.</td></tr>
+<tr><td style="width: 25%;"><a href="slopebypoint.html">slopebypoint</a></td>
+<td>Returns the slope from linear regression with x values as equally spaced 1:length</td></tr>
+<tr><td style="width: 25%;"><a href="slopeEveryN.html">slopeEveryN</a></td>
+<td>Calculate the slope every nth data point.</td></tr>
+<tr><td style="width: 25%;"><a href="StephBoltz.html">StephBoltz</a></td>
+<td>The Stephan Boltzman constant.</td></tr>
+<tr><td style="width: 25%;"><a href="Te.html">Te</a></td>
+<td>Operative temperature estimate.</td></tr>
+<tr><td style="width: 25%;"><a href="temp2raw.html">temp2raw</a></td>
+<td>Converts temperature (oC) to raw thermal data</td></tr>
+<tr><td style="width: 25%;"><a href="Teq.html">Teq</a></td>
+<td>Estimates equivalent temperature.</td></tr>
+<tr><td style="width: 25%;"><a href="Tground.html">Tground</a></td>
+<td>Estimates ground temperature from ambient temperature and solar radiation.</td></tr>
+<tr><td style="width: 25%;"><a href="Thermimage-package.html">Thermimage</a></td>
+<td>Handles thermal image data input and conversion to temperature using established physical equations.</td></tr>
+<tr><td style="width: 25%;"><a href="thermsum.html">thermsum</a></td>
+<td>Return summary of thermal image data.</td></tr>
+<tr><td style="width: 25%;"><a href="thermsumcent.html">thermsumcent</a></td>
+<td>Summary thermal calculations on a centrally located region of interest from a thermal image dataset</td></tr>
+<tr><td style="width: 25%;"><a href="writeFlirBin.html">writeFlirBin</a></td>
+<td>Saves thermal image data to a binary file</td></tr>
+<tr><td style="width: 25%;"><a href="yellowpal.html">yellowpal</a></td>
+<td>Colour palette extracted from FLIR thermal camera files</td></tr>
+</table>
+</body></html>
